@@ -1,0 +1,231 @@
+.MainPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 98vw;
+    height: 100vh;
+    background-color: #FFFFFF;
+}
+
+.Pika {
+    width: 22vw;
+    height: 98vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: #F7F8F9;
+}
+
+.uperPart {
+    width: 18vw;
+}
+
+.head,
+.para {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 8px;
+    color: #1D2226;
+}
+
+.para {
+    text-align: left;
+    font-size: 14px;
+    /* font-weight: lighter; */
+    color: #1D2226;
+    position: relative;
+    top: -18px;
+}
+
+.down-Btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.btn1 {
+    background-color: #6C25FF;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding: 8px 6px;
+    border: none;
+    width: 20vw;
+    cursor: pointer;
+}
+
+.btn2 {
+    cursor: pointer;
+    background-color: #6C25FF4B;
+    color: #1D2226;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 8px 6px;
+    border: none;
+    width: 20vw;
+}
+
+/* login Page */
+
+.squatal {
+    width: 22vw;
+    height: 98vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #F7F8F9;
+}
+
+.topPart,
+.reTopPart {
+    width: 15vw;
+}
+
+.topPart h3 {
+    font-size: 22px;
+    width: 13vw;
+    padding: 0px;
+    position: relative;
+    left: -18px;
+}
+
+.Form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input {
+    width: 18vw;
+    padding: 8px 12px;
+    border-radius: 5px;
+    color: #919191;
+    border: 1px solid #CBCBCB;
+}
+
+label {
+    color: #6C25FF;
+    font-size: 12px;
+    position: relative;
+    top: 14px;
+    left: 23px;
+    text-align: left;
+    z-index: 2;
+    background-color: white;
+    width: 120px;
+}
+
+.btn3 {
+    cursor: pointer;
+    background-color: #CBCBCB;
+    color: #F7F8F9;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 8px 6px;
+    border: none;
+    width: 20vw;
+    position: relative;
+    top: 16px;
+    left: 15px;
+}
+
+.reTopPart h3 {
+    font-size: 24px;
+    width: 12vw;
+    padding: 0px 5px;
+    text-align: left;
+}
+
+.radio {
+    display: flex;
+    flex-direction: column;
+}
+
+.lable p {
+    color: #6C25FF;
+    font-size: 14px;
+    position: relative;
+    top: 5px;
+    left: 20px;
+    text-align: left;
+    z-index: 2;
+    background-color: white;
+    /* width: 85px; */
+}
+
+.buttons {
+    display: flex;
+    width: 120px;
+    padding: 2px 10px;
+}
+
+.btn4{
+    cursor: pointer;
+    background-color: #6C25FF;
+    color: #F7F8F9;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 8px 6px;
+    border: none;
+    width: 20vw;
+    position: relative;
+    top: 16px;
+    left: 15px;
+}
+span{
+    color: #DD4A3D;
+}
+
+/* Dashboard */
+.Miyauth{
+    width: 22vw;
+    height: 98vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #F7F8F9;
+}
+
+nav{
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #00000007;
+    box-shadow: 0px 3px 6px 0px #00000007;
+}
+
+nav h4{
+    text-align: left;
+    padding: 0px 14px;
+}
+
+.upperPart{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 0px;
+    width: 16vw;
+}
+
+.girl{
+    width: 55px;
+}
+.more{
+    display: flex;
+    flex-direction: column;
+}
+
+.more p{
+    font-size: 13px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+}
+
+.paragraph{
+    text-align: justify;
+    font-size: 12px;
+    width: 20vw;
+    margin: 0px auto;
+}
